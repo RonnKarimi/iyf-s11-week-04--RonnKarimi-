@@ -1,16 +1,32 @@
-// Variable declarations
-let name = "Your Name";
-let age = 25;
-const birthYear = 1999;
+// =====================================
+// Exercise: Variable Practice
+// =====================================
 
-// typeof operator
-console.log(typeof name);    // string
-console.log(typeof age);     // number
-console.log(typeof true);    // boolean
+// Your name (string)
+let myName = "Ronn Mwangi";
 
-// let vs const
-let score = 100;
-score = 150;  // Works!
+// Your age (number)
+let myAge = 20;
 
-const PI = 3.14159;
-// PI = 3;  // Error! const cannot be reassigned
+// Whether you're a student (boolean)
+let isStudent = true;
+
+// Your favorite colors (array)
+let favoriteColors = ["Black", "Blue", "White"];
+
+// Today's date
+let today = new Date();
+
+// =====================================
+// Display the variables
+// =====================================
+
+console.log("My name is:", myName);
+
+console.log("I am", myAge, "years old.");
+
+console.log("Am I a student?", isStudent);
+
+console.log("My favorite colors are:", favoriteColors);
+
+console.log("Today's date is:", today);
