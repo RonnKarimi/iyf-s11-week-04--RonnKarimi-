@@ -20,9 +20,7 @@ console.log("After Increment:", count);
 count--;
 console.log("After Decrement:", count);
 
-// ========================================
-// Exercise 2: String Operations
-// ========================================
+// String Operations
 
 let firstName = "Ronn";
 let lastName = "Mwangi";
@@ -50,9 +48,7 @@ console.log(greeting);
 
 console.log(message);
 
-// ========================================
-// Exercise 3: Comparison & Logical Operators
-// ========================================
+// Comparison & Logical Operators
 
 // Comparison
 console.log("5 > 3:", 5 > 3);
