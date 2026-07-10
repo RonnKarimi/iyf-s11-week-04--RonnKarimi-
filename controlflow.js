@@ -1,10 +1,3 @@
-// ==========================================
-// IYF Season 11 - Week 04
-// Task 7.1 - Variables Practice
-// Author: Ronn Mwangi
-// GitHub: https://github.com/RonnKarimi
-// ==========================================
-
 // Variable Declarations
 
 let name = "Ronn Mwangi";
