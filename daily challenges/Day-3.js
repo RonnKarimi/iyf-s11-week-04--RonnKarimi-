@@ -1,9 +1,4 @@
 // ======================================
-// IYF Season 11 - Week 04
-// Task: Functions
-// Author: Ronn Mwangi
-// GitHub: https://github.com/RonnKarimi
-// ======================================
 
 console.log("========== Exercise 1: Function Declarations ==========");
 
