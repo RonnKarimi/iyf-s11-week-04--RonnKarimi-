@@ -102,3 +102,14 @@ console.log("Approximate Age in Hours:", ageInHours);
 console.log("You will turn 100 in:", yearTurn100);
 
 console.log("--------------------------------");
+
+// ======================================
+// Challenge 2
+// Print Even Numbers 1 - 50
+// ======================================
+
+console.log("\n========== Challenge 2 ==========");
+
+for (let i = 2; i <= 50; i += 2) {
+    console.log(i);
+}
