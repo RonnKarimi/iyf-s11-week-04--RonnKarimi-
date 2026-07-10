@@ -69,3 +69,14 @@ console.log("Type of Today's Date:", typeof today);
 
 console.log("=============================");
 console.log("Variables practice completed successfully!");
+
+// ======================================
+// Challenge 1
+// Print Numbers 1 - 100
+// ======================================
+
+console.log("\n========== Challenge 1 ==========");
+
+for (let i = 1; i <= 100; i++) {
+    console.log(i);
+}
