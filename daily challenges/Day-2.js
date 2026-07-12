@@ -1,9 +1,18 @@
-// Challenge 2
-// Print Even Numbers 1 - 50
+// ======================================
+// Day 2: Reverse String (Loop)
 // ======================================
 
-console.log("\n========== Challenge 2 ==========");
+console.log("\n===== Day 2: Reverse String (Loop) =====");
 
-for (let i = 2; i <= 50; i += 2) {
-    console.log(i);
+function reverseStringLoop(str) {
+
+    let reversed = "";
+
+    for (let i = str.length - 1; i >= 0; i--) {
+        reversed += str[i];
+    }
+
+    return reversed;
 }
+
+console.log(reverseStringLoop("hello"));
