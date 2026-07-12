@@ -16,3 +16,11 @@ function reverseStringLoop(str) {
 }
 
 console.log(reverseStringLoop("hello"));
+
+// Reverse using Built-in Methods
+
+function reverseStringBuiltIn(str) {
+    return str.split("").reverse().join("");
+}
+
+console.log(reverseStringBuiltIn("JavaScript"));
