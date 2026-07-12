@@ -1,22 +1,38 @@
-// Challenge 3
-// FizzBuzz
+// ======================================
+// Day 3: Largest Number (Loop)
 // ======================================
 
-console.log("\n========== Challenge 3: FizzBuzz ==========");
+console.log("\n===== Day 3: Largest Number =====");
 
-for (let i = 1; i <= 100; i++) {
+function findLargest(numbers) {
 
-    if (i % 3 === 0 && i % 5 === 0) {
-        console.log("FizzBuzz");
+    let largest = numbers[0];
+
+    for (let i = 1; i < numbers.length; i++) {
+
+        if (numbers[i] > largest) {
+            largest = numbers[i];
+        }
+
     }
-    else if (i % 3 === 0) {
-        console.log("Fizz");
-    }
-    else if (i % 5 === 0) {
-        console.log("Buzz");
-    }
-    else {
-        console.log(i);
-    }
+
+    return largest;
+}
+
+console.log(findLargest([12, 8, 45, 32, 90, 27]));
+
+function findLargestReduce(numbers) {
+
+    return numbers.reduce((largest, current) => {
+
+        if (current > largest) {
+            return current;
+        }
+
+        return largest;
+
+    });
 
 }
+
+console.log(findLargestReduce([12, 8, 45, 32, 90, 27]));
