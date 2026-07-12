@@ -1,18 +1,25 @@
-// Challenge 4
-// Triangle of Stars
+// ======================================
+// Day 4: Remove Duplicates
 // ======================================
 
-console.log("\n========== Challenge 4 ==========");
+console.log("\n===== Day 4: Remove Duplicates =====");
 
-for (let i = 1; i <= 5; i++) {
+function removeDuplicatesSet(array) {
 
-    let stars = "";
+    return [...new Set(array)];
 
-    for (let j = 1; j <= i; j++) {
-        stars += "*";
-    }
-
-    console.log(stars);
 }
 
-console.log("\nTask 7.4 Completed Successfully!");
+console.log(removeDuplicatesSet([1, 2, 2, 3, 4, 4, 5]));
+
+function removeDuplicatesFilter(array) {
+
+    return array.filter((item, index) => {
+
+        return array.indexOf(item) === index;
+
+    });
+
+}
+
+console.log(removeDuplicatesFilter([1, 2, 2, 3, 4, 4, 5]));
